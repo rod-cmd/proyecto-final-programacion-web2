@@ -52,13 +52,19 @@ function Login({ iniciarSesion }) {
     return (
 
         <div
-            className="container-fluid vh-100 d-flex justify-content-center align-items-center bg-light"
-        >
+    className="container-fluid vh-100 d-flex justify-content-center align-items-center"
+    style={{
+        background: "linear-gradient(135deg, #e9f2ff, #f8f9fa)"
+    }}
+>
 
             <div
-                className="card shadow border-0"
-                style={{ width: "400px" }}
-            >
+    className="card shadow-lg border-0"
+    style={{
+        width: "400px",
+        borderRadius: "18px"
+    }}
+>
 
                 <div className="card-body p-4">
 
@@ -82,13 +88,13 @@ function Login({ iniciarSesion }) {
 
                     {/* TÍTULO */}
 
-                    <h3 className="text-center fw-bold mb-1">
-                        Sistema de Gestión
-                    </h3>
+<h3 className="text-center fw-bold mb-1">
+    TecnoNova S.R.L.
+</h3>
 
-                    <p className="text-center text-muted mb-4">
-                        Equipos Tecnológicos
-                    </p>
+<p className="text-center text-muted mb-4">
+    Sistema de Gestión de Equipos Tecnológicos
+</p>
 
 
                     {/* FORMULARIO */}
